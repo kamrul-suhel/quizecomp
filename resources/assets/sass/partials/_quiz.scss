@@ -253,8 +253,8 @@ img{
         h2{
             margin: 0;
             position: absolute;
-            bottom: 35px;
-            left: 35px;
+            bottom: 20px;
+            left: 15px;
             font-size: 3.5em;
             text-align: left;
             line-height: 0.9em;
@@ -302,12 +302,14 @@ img{
         h2{
             margin: 0;
             position: absolute;
-            bottom: -58px;
+            bottom: -80px;
             left: 10px;
-            font-size: 2.3em;
+            font-size: 2.5em;
             text-align: left;
-            line-height: 60px;
-            font-family:'GiorgioSansBoldItalic';
+            line-height: 0.9em;
+            font-family: 'GiorgioSansBoldItalic';
+            vertical-align: bottom;
+            width: 20%;
         }
 
         .option{
@@ -351,20 +353,22 @@ img{
 }
 #section4{
     .imgsContainer{
-        h2{
+        h2{    
             margin: 0;
             position: absolute;
-            top: -60px;
+            top: -80px;
             left: 10px;
-            font-size: 2.4em;
+            font-size: 2.5em;
             text-align: left;
-            line-height: 60px;
-            font-family:'GiorgioSansBoldItalic';
+            line-height: 0.9em;
+            font-family: 'GiorgioSansBoldItalic';
+            vertical-align: bottom;
+            width: 55%;
         }
 
         .option{
             position: relative;
-            height: 50%;
+            height: 45%;
             width: 24%;
             background-size: cover;
             margin-top: 30%;
