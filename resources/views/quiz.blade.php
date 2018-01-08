@@ -239,7 +239,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/app.js?ver=1"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
