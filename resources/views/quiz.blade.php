@@ -13,7 +13,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/quiz.css?ver=1" />
+    <link rel="stylesheet" type="text/css" href="css/quiz.css?ver=1.0" />
 </head>
 <body>
 <div id="fullpage">
@@ -271,7 +271,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/app.js?ver=1"></script>
+<script type="text/javascript" src="js/app.js?ver=1.0"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
