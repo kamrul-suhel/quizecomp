@@ -87,19 +87,19 @@
 
             <div class="imgsContainer">
                 <div id="alpine" class="accomodation-select option" v-on:click="setAccomodation" v-bind:class="{ active : accomodation == 'alpine' }">
-                    <h2>Alpine Chalet</h2>
+                    <h2>Alpine<br>Chalet</h2>
                 </div>
 
                 <div id="local" class="accomodation-select option" v-on:click="setAccomodation" v-bind:class="{ active : accomodation == 'local' }">
-                    <h2>Local Homestay</h2>
+                    <h2>Local<br>Homestay</h2>
                 </div>
 
                 <div id="beach" class="accomodation-select option" v-on:click="setAccomodation" v-bind:class="{ active : accomodation == 'beach' }">
-                    <h2>Beach Hotel</h2>
+                    <h2>Beach<br>Hotel</h2>
                 </div>
 
                 <div id="city" class="accomodation-select option" v-on:click="setAccomodation" v-bind:class="{ active : accomodation == 'city' }">
-                    <h2>City Hotel</h2>
+                    <h2>City<br>Hotel</h2>
                 </div>
             </div>
 
@@ -120,19 +120,19 @@
 
             <div class="imgsContainer">
                 <div id="seafood" class="cuisine-select option" v-on:click="setCuisine" v-bind:class="{ active : cuisine == 'seafood' }">
-                    <h2>Catch of the day</h2>
+                    <h2>Catch of<br>the day</h2>
                 </div>
 
                 <div id="fondu" class="cuisine-select option" v-on:click="setCuisine" v-bind:class="{ active : cuisine == 'fondu' }">
-                    <h2>Cheese Fondu</h2>
+                    <h2>Cheese<br>Fondu</h2>
                 </div>
 
                 <div id="course" class="cuisine-select option" v-on:click="setCuisine" v-bind:class="{ active : cuisine == 'course' }">
-                    <h2>3 Course Meal</h2>
+                    <h2>3 Course<br>Meal</h2>
                 </div>
 
                 <div id="dish" class="cuisine-select option" v-on:click="setCuisine" v-bind:class="{ active : cuisine == 'dish' }">
-                    <h2>Local Cuisine</h2>
+                    <h2>Local<br>Cuisine</h2>
                 </div>
             </div>
 
