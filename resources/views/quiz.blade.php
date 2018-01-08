@@ -13,7 +13,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/quiz.css?ver=1.2" />
+    <link rel="stylesheet" type="text/css" href="css/quiz.css?ver=1.3" />
 </head>
 <body>
 <div id="fullpage">
