@@ -165,7 +165,7 @@ img{
 }
 .option{
     border: 3px solid #000000;
-
+    background-position-x: 50%;
     transition: all 1.2s ease-in-out, border 0.2s ease-in-out;
 
     &.active{
@@ -473,6 +473,7 @@ img{
     flex-direction: column;
     text-align: center;
     background-size:cover;
+    background-position-x: 50%;
 
     .btn{
         width: 300px;
