@@ -61,15 +61,15 @@ const app = new Vue({
             this.climate = event.currentTarget.id;
 
             if(this.climate == 'hot'){
-                this.scores['cape']['climate'] = 3;
-                this.scores['col']['climate'] = 2;
+                this.scores['cape']['climate'] = 10;
+                this.scores['col']['climate'] = 8;
                 this.scores['cop']['climate'] = 1;
                 this.scores['val']['climate'] = 0;
             }else if(this.climate == 'cold'){
                 this.scores['cape']['climate'] = 0;
-                this.scores['col']['climate'] = 1;
-                this.scores['cop']['climate'] = 2;
-                this.scores['val']['climate'] = 3;
+                this.scores['col']['climate'] = 0;
+                this.scores['cop']['climate'] = 8;
+                this.scores['val']['climate'] = 10;
             }
         },
 
