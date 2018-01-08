@@ -59,9 +59,15 @@ label{
     font-family: "GiorgioSansBoldItalic",arial,helvetica;
     display:block;
 
-    .small{
+    &.small{
         font-size: 20px;
+
+        a{
+            color: #ccc;
+        }
     }
+
+
 }
 
 input{
@@ -76,6 +82,7 @@ input{
 input[type="checkbox"]{
     float: left;
     width: 20px;
+    margin-top: 10px;
 }
 
 
@@ -277,15 +284,12 @@ img{
 
 #adrenaline{
     background-image: url('/imgs/ivan-torres-376140.jpg');
-    background-position: -200px;
 }
 #urban{
     background-image: url('/imgs/domenico-loia-274169.jpg');
-    background-position: -470px;
 }
 #relax{
     background-image: url('/imgs/hrvoje-grubisic-376578.jpg');
-    background-position: -262px;
 }
 
 /* Section 3
@@ -480,16 +484,16 @@ img{
     }
 }
 #slide1{
-    background-image: url('/imgs/cape.png');
+    background-image: url('/imgs/cape.jpg');
 }
 #slide2{
-    background-image: url('/imgs/col.png');
+    background-image: url('/imgs/col.jpg');
 }
 #slide3{
-    background-image: url('/imgs/cop.png');
+    background-image: url('/imgs/cop.jpg');
 }
 #slide4{
-    background-image: url('/imgs/val.png');
+    background-image: url('/imgs/val.jpg');
 }
 
 /* Section 7
@@ -500,6 +504,28 @@ img{
     align-content: center;
     flex-direction:column;
     justify-content: center;
+}
+
+/* Section 8
+* --------------------------------------- */
+#section8{
+    .wrap{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction:column;
+        justify-content: center;
+
+        h2{
+            text-align: center;
+        }
+
+        .terms-box{
+            height:65%;
+            overflow-y: scroll;
+            text-align: left;
+        }
+    }
 }
 
 

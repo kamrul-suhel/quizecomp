@@ -229,13 +229,45 @@
 
             <div class="form-group">
                 <input type="checkbox" name="terms" id="terms">
-                <label class="small" for="terms">I Agree to Terms and Conditions</label>
+                <label class="small" for="terms">I Agree to <a href="#termsSection">Terms and Conditions</a></label>
             </div>
 
             <input type="hidden" v-model="winner" name="destination" />
 
             <input type="submit" value="Enter" class="btn" />
         </form>
+    </div>
+
+    <div class="section" id="section8">
+        <div class="wrap">
+            <h2>Terms and Conditions</h2>
+            <div class="terms-box">
+                <p>UK residents of 18+ years only may participate in the Adventure ‘Win a holiday quiz’ competition (“the Promotion”). The promotion will run on 9th January 2018 between 12.00 and 15.30 (“the Promotion Period”). No purchase necessary for entry.</p>
+                <p>To Participate: Complete the Adventure quiz on the iPad provided and complete by entering your name and email address. The participants are allowed 1 turn per individual. </p>
+                <p>Full Terms &amp; prize details can be found below.</p>
+                <p>Full Terms and Conditions</p>
+                <p>This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.</p>
+                <p>Promotion Period: 12.00 GMT to 15.30 GMT on 9th January 2018.</p>
+                <p>To Enter:</p>
+                <p>Complete the travel quiz.</p>
+                <p>Enter your full name and email address once completed.</p>
+                <p>One entry per person.</p>
+                <p>The prizes:</p>
+                <p>There will be 1 prize</p>
+                <p>Flights and accommodation to prize draw destination</p>
+                <p>The winner of the Prize will be notified via the email address provided by midday Monday 15th January and will need to response to the email sent by midday Monday 22nd January. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and pick another winner.</p>
+                <p>The prize will be distributed within 28 days of the winner accepting the prize. </p>
+                <p>Prizes are non-transferable and no cash or other alternative to the prizes are available in whole or in part. In the event of unforeseen circumstances, the Promoter reserves the right to substitute an alternative reward of equal or greater value.</p>
+                <p>By entering, winners agree to participate in any publicity arranged by the Promoter or by its agencies.</p>
+                <p>By entering this Promotion, all participants will be deemed to have accepted these terms and conditions.</p>
+                <p>The Promoter will exercise its best endeavours to ensure that the Promotion runs as envisaged in a fair and proper manner and that prizes are duly received by the respective Winners. However, the Promoter does not assume any responsibility should for any circumstance this is not duly achieved. The Promoter reserves the right to cancel or change the Promotion should any exceptional or unforeseen circumstances arise.</p>
+                <p>The Promoter also has the right to disqualify any participant who the Promoter suspects and/or confirms that s/he tampered or abused the entry process or the Promotion itself. Participants who are suspected or are found to have acted fraudulently and/or dishonestly will not be entitled to the prize.</p>
+                <p>All entries must be made directly by the person entering the promotion.</p>
+                <p>These terms and conditions are governed by English Law and shall be subject to the exclusive jurisdiction of the courts or England and Wales.</p>
+            </div>
+
+            <a href="#enter" class="btn">Back</a>
+        </div>
     </div>
 </div>
 
@@ -249,11 +281,11 @@
         $('#fullpage').fullpage({
             'verticalCentered': false,
             'css3': true,
-            'sectionsColor': ['#6ec3bf', '#fff', '#fff', '#fff', '#6ec3bf', '#fff', '#fff', '#6ec3bf'],
+            'sectionsColor': ['#6ec3bf', '#fff', '#fff', '#fff', '#6ec3bf', '#fff', '#fff', '#6ec3bf', '#6ec3bf'],
             'navigation': true,
             'navigationPosition': 'right',
-            'navigationTooltips': ['Take the quiz', 'Climate', 'Trip type', 'Accomodation', 'Cuisine', 'Itinerary', 'Your pick', 'Enter'],
-            'anchors': ['home', 'climate', 'trip', 'accomodation', 'cuisine', 'itinerary', 'your-pick', 'enter'],
+            'navigationTooltips': ['Take the quiz', 'Climate', 'Trip type', 'Accomodation', 'Cuisine', 'Itinerary', 'Your pick', 'Enter', 'Terms'],
+            'anchors': ['home', 'climate', 'trip', 'accomodation', 'cuisine', 'itinerary', 'your-pick', 'enter', 'termsSection'],
 
             'afterLoad': function(anchorLink, index){
             },
