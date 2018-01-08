@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-  font-size: 62px;
+  font-size: 3em;
   margin: 0 0 18px 0;
   font-family: "GiorgioSansBold",arial,helvetica;
 }
@@ -66,7 +66,7 @@ h6 {
   text-transform: uppercase;
   font-family: GothamBold;
   font-size: 16px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 a {
@@ -129,8 +129,30 @@ img {
   overflow: hidden;
 }
 
+.btn {
+  border-radius: 8px;
+  font-family: GiorgioSansBold;
+  color: #6ec3bf;
+  font-size: 2em;
+  background: #ffffff;
+  width: 155px;
+  text-decoration: none;
+  padding: 0 0 2px;
+}
+
+.btn:hover,
+.btn:active {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.btn.invert {
+  color: #ffffff;
+  background: #6ec3bf;
+}
+
 .wrap {
-  width: 1066px;
+  width: 80%;
   margin: 0 auto;
   height: 100%;
   position: relative;
@@ -139,7 +161,7 @@ img {
 .wrap .btn {
   position: absolute;
   right: 0;
-  bottom: 50px;
+  bottom: 5%;
   -webkit-transition: visibility 0s, opacity 0.2s linear;
   transition: visibility 0s, opacity 0.2s linear;
 }
@@ -149,7 +171,7 @@ img {
   text-align: left;
   color: #808080;
   left: -20px;
-  top: 50px;
+  top: 5%;
   opacity: 0;
   -webkit-transition: all 1.2s ease-in-out;
   transition: all 1.2s ease-in-out;
@@ -199,28 +221,6 @@ img {
   border: 3px solid #6ec3bf;
 }
 
-.btn {
-  border-radius: 8px;
-  font-family: GiorgioSansBold;
-  color: #6ec3bf;
-  font-size: 44px;
-  background: #ffffff;
-  width: 155px;
-  text-decoration: none;
-  padding: 0 0 2px;
-}
-
-.btn:hover,
-.btn:active {
-  background: #ffffff;
-  text-decoration: none;
-}
-
-.btn.invert {
-  color: #ffffff;
-  background: #6ec3bf;
-}
-
 /* Section 0
 * --------------------------------------- */
 
@@ -243,7 +243,7 @@ img {
 }
 
 .logo {
-  margin-bottom: 135px;
+  margin-bottom: 5%;
 }
 
 .take-the-quiz {
@@ -264,7 +264,7 @@ img {
   position: absolute;
   bottom: 60px;
   left: 35px;
-  font-size: 140px;
+  font-size: 8em;
 }
 
 #section1 img {
@@ -277,7 +277,7 @@ img {
 #section1 .option {
   position: relative;
   height: 65%;
-  width: 500px;
+  width: 45%;
   background-size: cover;
   margin-top: 20%;
 }
@@ -314,16 +314,16 @@ img {
   position: absolute;
   bottom: 35px;
   left: 35px;
-  font-size: 70px;
+  font-size: 3.5em;
   text-align: left;
-  line-height: 60px;
+  line-height: 0.9em;
   font-family: 'GiorgioSansBoldItalic';
 }
 
 #section2 .imgsContainer .option {
   position: relative;
   height: 65%;
-  width: 340px;
+  width: 32%;
   bottom: 0;
   background-size: cover;
   margin-top: 20%;
@@ -365,7 +365,7 @@ img {
   position: absolute;
   bottom: -58px;
   left: 10px;
-  font-size: 42px;
+  font-size: 2.3em;
   text-align: left;
   line-height: 60px;
   font-family: 'GiorgioSansBoldItalic';
@@ -373,9 +373,10 @@ img {
 
 #section3 .imgsContainer .option {
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 50%;
+  width: 24%;
   background-size: cover;
+  margin-top: 20%;
 }
 
 #section3.active h2 {
@@ -383,7 +384,7 @@ img {
 }
 
 #section3.active .option {
-  margin-top: 6%;
+  margin-top: 0%;
 }
 
 #alpine {
@@ -421,15 +422,20 @@ img {
   font-family: 'GiorgioSansBoldItalic';
 }
 
-#seafood,
-#fondu,
-#course,
-#dish {
+#section4 .imgsContainer .option {
   position: relative;
   height: 50%;
-  width: 250px;
+  width: 24%;
   background-size: cover;
-  margin-top: 15%;
+  margin-top: 30%;
+}
+
+#section4.active h2 {
+  opacity: 1;
+}
+
+#section4.active .option {
+  margin-top: 5%;
 }
 
 #seafood {
@@ -457,13 +463,16 @@ img {
 }
 
 #section5 .box {
-  margin-left: 150px;
+  width: 80%;
+  margin: 0 auto;
   top: 0;
+  left: 0;
+  right: 0;
 }
 
 #section5 .btn {
-  right: 150px;
-  bottom: 100px;
+  right: 10%;
+  bottom: 8%;
 }
 
 #section5 .imgsContainer {
@@ -490,6 +499,9 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  height: 16%;
+  width: 100%;
+  background-size: cover;
 }
 
 #section5 .imgsContainer .option h2 {
@@ -501,13 +513,8 @@ img {
   margin-right: 50px;
 }
 
-#streets,
-#thrills,
-#culture,
-#cocktail {
-  height: 16%;
-  width: 100%;
-  background-size: cover;
+#section5.active h2 {
+  opacity: 1;
 }
 
 #streets {
