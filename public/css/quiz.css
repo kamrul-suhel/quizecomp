@@ -414,9 +414,9 @@ img {
 #section4 .imgsContainer h2 {
   margin: 0;
   position: absolute;
-  top: -70px;
+  top: -60px;
   left: 10px;
-  font-size: 42px;
+  font-size: 2.4em;
   text-align: left;
   line-height: 60px;
   font-family: 'GiorgioSansBoldItalic';
@@ -465,7 +465,6 @@ img {
 #section5 .box {
   width: 80%;
   margin: 0 auto;
-  top: 0;
   left: 0;
   right: 0;
 }
@@ -486,7 +485,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 50px;
 }
 
 #section5 .imgsContainer .option {
@@ -505,12 +503,13 @@ img {
 }
 
 #section5 .imgsContainer .option h2 {
-  font-size: 60px;
+  font-size: 3em;
   text-align: left;
-  line-height: 61px;
+  line-height: 0.9em;
   font-family: 'GiorgioSansBoldItalic';
-  width: 350px;
-  margin-right: 50px;
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 0;
 }
 
 #section5.active h2 {
@@ -524,7 +523,7 @@ img {
 
 #thrills {
   background-image: url("/imgs/philipp-kammerer-264284.jpg");
-  background-position-y: -120px;
+  background-position-y: -65px;
 }
 
 #culture {

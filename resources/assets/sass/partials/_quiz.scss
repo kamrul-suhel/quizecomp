@@ -350,9 +350,9 @@ img{
         h2{
             margin: 0;
             position: absolute;
-            top: -70px;
+            top: -60px;
             left: 10px;
-            font-size: 42px;
+            font-size: 2.4em;
             text-align: left;
             line-height: 60px;
             font-family:'GiorgioSansBoldItalic';
@@ -402,7 +402,6 @@ img{
     .box{
         width: 80%;
         margin:0 auto;
-        top:0;
         left:0;
         right:0;
     }
@@ -416,7 +415,6 @@ img{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
 
         .option{
             display: flex;
@@ -427,12 +425,13 @@ img{
             background-size: cover;
 
             h2{
-                font-size: 60px;
+                font-size: 3em;
                 text-align: left;
-                line-height: 61px;
+                line-height: 0.9em;
                 font-family: 'GiorgioSansBoldItalic';
-                width: 350px;
-                margin-right:50px;
+                width: 30%;
+                margin-right: 5%;
+                margin-bottom:0;
             }
         }
     }
@@ -449,7 +448,7 @@ img{
 }
 #thrills{
     background-image: url('/imgs/philipp-kammerer-264284.jpg');
-    background-position-y: -120px;
+    background-position-y: -65px;
 }
 #culture{
     background-image: url('/imgs/andre-benz-250740.jpg');
