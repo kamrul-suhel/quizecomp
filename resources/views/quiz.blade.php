@@ -12,7 +12,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
     <link rel="stylesheet" type="text/css" href="css/quiz.css" />
 </head>
 <body>
@@ -242,7 +242,7 @@
 <script type="text/javascript" src="js/app.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
