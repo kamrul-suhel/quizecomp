@@ -539,29 +539,6 @@ img {
 /* Section 6
 * --------------------------------------- */
 
-.square {
-  border: 2px solid #fff;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%) rotate(45deg);
-  transform: translateX(-50%) rotate(45deg);
-}
-
-#square1 {
-  width: 18em;
-  height: 18em;
-}
-
-#square2 {
-  width: 36em;
-  height: 36em;
-}
-
-#square3 {
-  width: 54em;
-  height: 54em;
-}
-
 .slide {
   position: relative;
   display: -webkit-box;
@@ -591,19 +568,19 @@ img {
 }
 
 #slide1 {
-  background-image: url("/imgs/denys-nevozhai-185489.jpg");
+  background-image: url("/imgs/cape.png");
 }
 
 #slide2 {
-  background-image: url("/imgs/julian-andres-carmona-serrato-72101.jpg");
+  background-image: url("/imgs/col.png");
 }
 
 #slide3 {
-  background-image: url("/imgs/orlova-maria-379607.jpg");
+  background-image: url("/imgs/cop.png");
 }
 
 #slide4 {
-  background-image: url("/imgs/simon-schoepf-204002.jpg");
+  background-image: url("/imgs/val.png");
 }
 
 /* Section 7
