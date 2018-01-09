@@ -45,8 +45,6 @@
                 <a v-if="climate" data-menuanchor="trip" href="#trip" class="btn">Next</a>
             </transition>
         </div>
-
-        <h2 class="output" v-html="winner"></h2>
     </div>
 
     <div class="section" id="section2">
@@ -74,8 +72,6 @@
                 <a v-if="trip" data-menuanchor="accomodation" href="#accomodation" class="btn invert">Next</a>
             </transition>
         </div>
-
-        <h2 class="output invert" v-html="winner"></h2>
     </div>
 
     <div class="section" id="section3">
@@ -107,8 +103,6 @@
                 <a v-if="accomodation" data-menuanchor="cuisine" href="#cuisine" class="btn">Next</a>
             </transition>
         </div>
-
-        <h2 class="output" v-html="winner"></h2>
     </div>
 
     <div class="section" id="section4">
@@ -140,8 +134,6 @@
                 <a v-if="cuisine" data-menuanchor="itinerary" href="#itinerary" class="btn">Next</a>
             </transition>
         </div>
-
-        <h2 class="output" v-html="winner"></h2>
     </div>
 
     <div class="section" id="section5">
@@ -173,8 +165,6 @@
                 <a v-if="itinerary" class="btn invert" v-on:click="showPick">Next</a>
             </transition>
         </div>
-
-        <h2 class="output invert" v-html="winner"></h2>
     </div>
 
     <div class="section" id="section6">
