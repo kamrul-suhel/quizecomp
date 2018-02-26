@@ -13,7 +13,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/quiz.css?ver=1.6" />
+    <link rel="stylesheet" type="text/css" href="css/quiz.css?ver=1.7" />
 </head>
 <body>
 <div id="fullpage">
@@ -204,22 +204,22 @@
 
     <div class="section" id="section7">
         <img src="imgs/logo-adventure.png" height="140" class="logo" />
-        <form method="post" action="/">
+        <form method="post" @submit="checkForm" action="/">
             {{ csrf_field() }}
 
             <div class="form-group">
-                <label>Name</label>
-                <input type="text" name="name">
+                <label>Name <span v-if="name_error" class="error">*Required</span></label>
+                <input type="text" name="name" id="name" v-model="name">
             </div>
 
             <div class="form-group">
-                <label>Email Address</label>
-                <input type="email" name="email">
+                <label>Email Address <span v-if="email_error" class="error">*Required</span></label>
+                <input type="email" name="email" id="email" v-model="email">
             </div>
 
             <div class="form-group">
-                <input type="checkbox" name="terms" id="terms">
-                <label class="small" for="terms">I Agree to <a href="#termsSection">Terms and Conditions</a></label>
+                <input type="checkbox" name="terms" id="terms" v-model="terms">
+                <label class="small" for="terms">I Agree to <a href="#termsSection">Terms and Conditions</a><span v-if="terms_error" class="error"> *Required</span></label>
             </div>
 
             <input type="hidden" v-model="winner" name="destination" />
@@ -261,7 +261,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/app.js?ver=1.1"></script>
+<script type="text/javascript" src="js/app.js?ver=1.2"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>

@@ -20,6 +20,7 @@
     },
     "dependencies": {
         "fullpage.js": "^2.9.5",
+        "jquery-validation": "^1.17.0",
         "vue-animate": "0.0.4"
     }
 }

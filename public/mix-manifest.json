@@ -3,6 +3,5 @@
     "/css/app.css": "/css/app.css",
     "/css/quiz.css": "/css/quiz.css",
     "/js/jquery.fullpage.min.js": "/js/jquery.fullpage.min.js",
-    "/css/jquery.fullpage.min.css": "/css/jquery.fullpage.min.css",
-    "/css/vue-animate.min.css": "/css/vue-animate.min.css"
+    "/css/jquery.fullpage.min.css": "/css/jquery.fullpage.min.css"
 }

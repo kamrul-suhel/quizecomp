@@ -1005,7 +1005,14 @@ var app = new Vue({
         trip: false,
         accomodation: false,
         cuisine: false,
-        itinerary: false
+        itinerary: false,
+        errors: [],
+        name: null,
+        name_error: false,
+        email: null,
+        email_error: false,
+        terms: null,
+        terms_error: false
     },
 
     computed: {
@@ -1025,6 +1032,15 @@ var app = new Vue({
     },
 
     methods: {
+        checkForm: function checkForm(e) {
+            if (this.name && this.email && this.terms) return true;
+            this.name_error = this.email_error = this.terms_error = null;
+            if (!this.name) this.name_error = true;
+            if (!this.email) this.email_error = true;
+            if (!this.terms) this.terms_error = true;
+            e.preventDefault();
+        },
+
         setClimate: function setClimate(event) {
             this.climate = event.currentTarget.id;
 
