@@ -995,10 +995,10 @@ var app = new Vue({
 
     data: {
         scores: {
-            'cape': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 },
-            'col': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 },
-            'cop': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 },
-            'val': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 }
+            'nice': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 },
+            'bar': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 },
+            'ber': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 },
+            'cop': { 'climate': 0, 'trip': 0, 'accomodation': 0, 'cuisine': 0, 'itinerary': 0, 'total': 0 }
         },
         slide: 0,
         climate: false,
@@ -1019,11 +1019,9 @@ var app = new Vue({
         winner: function winner() {
             var total = [];
             // Here I need to work out the winner
-            total = [{ 'id': 0, 'name': 'cape', 'total': this.scores['cape']['climate'] + this.scores['cape']['trip'] + this.scores['cape']['accomodation'] + this.scores['cape']['cuisine'] + this.scores['cape']['itinerary'] }, { 'id': 1, 'name': 'col', 'total': this.scores['col']['climate'] + this.scores['col']['trip'] + this.scores['col']['accomodation'] + this.scores['col']['cuisine'] + this.scores['col']['itinerary'] }, { 'id': 2, 'name': 'cop', 'total': this.scores['cop']['climate'] + this.scores['cop']['trip'] + this.scores['cop']['accomodation'] + this.scores['cop']['cuisine'] + this.scores['cop']['itinerary'] }, { 'id': 3, 'name': 'val', 'total': this.scores['val']['climate'] + this.scores['val']['trip'] + this.scores['val']['accomodation'] + this.scores['val']['cuisine'] + this.scores['val']['itinerary'] }];
+            total = [{ 'id': 0, 'name': 'nice', 'total': this.scores['nice']['climate'] + this.scores['nice']['trip'] + this.scores['nice']['accomodation'] + this.scores['nice']['cuisine'] + this.scores['nice']['itinerary'] }, { 'id': 1, 'name': 'bar', 'total': this.scores['bar']['climate'] + this.scores['bar']['trip'] + this.scores['bar']['accomodation'] + this.scores['bar']['cuisine'] + this.scores['bar']['itinerary'] }, { 'id': 2, 'name': 'ber', 'total': this.scores['ber']['climate'] + this.scores['ber']['trip'] + this.scores['ber']['accomodation'] + this.scores['ber']['cuisine'] + this.scores['ber']['itinerary'] }, { 'id': 3, 'name': 'cop', 'total': this.scores['cop']['climate'] + this.scores['cop']['trip'] + this.scores['cop']['accomodation'] + this.scores['cop']['cuisine'] + this.scores['cop']['itinerary'] }];
 
             total = _.sortBy(total, 'total').reverse();
-
-            console.log(total);
 
             this.slide = total[0].id;
 
@@ -1045,15 +1043,15 @@ var app = new Vue({
             this.climate = event.currentTarget.id;
 
             if (this.climate == 'hot') {
-                this.scores['cape']['climate'] = 10;
-                this.scores['col']['climate'] = 8;
-                this.scores['cop']['climate'] = 1;
-                this.scores['val']['climate'] = 0;
+                this.scores['nice']['climate'] = 10;
+                this.scores['bar']['climate'] = 8;
+                this.scores['ber']['climate'] = 1;
+                this.scores['cop']['climate'] = 0;
             } else if (this.climate == 'cold') {
-                this.scores['cape']['climate'] = 0;
-                this.scores['col']['climate'] = 0;
-                this.scores['cop']['climate'] = 8;
-                this.scores['val']['climate'] = 10;
+                this.scores['nice']['climate'] = 0;
+                this.scores['bar']['climate'] = 0;
+                this.scores['ber']['climate'] = 8;
+                this.scores['cop']['climate'] = 10;
             }
         },
 
@@ -1061,20 +1059,20 @@ var app = new Vue({
             this.trip = event.currentTarget.id;
 
             if (this.trip == 'adrenaline') {
-                this.scores['cape']['trip'] = 0;
-                this.scores['col']['trip'] = 2;
-                this.scores['cop']['trip'] = 1;
-                this.scores['val']['trip'] = 3;
-            } else if (this.trip == 'urban') {
-                this.scores['cape']['trip'] = 0;
-                this.scores['col']['trip'] = 2;
+                this.scores['nice']['trip'] = 0;
+                this.scores['bar']['trip'] = 2;
+                this.scores['ber']['trip'] = 1;
                 this.scores['cop']['trip'] = 3;
-                this.scores['val']['trip'] = 1;
+            } else if (this.trip == 'urban') {
+                this.scores['nice']['trip'] = 0;
+                this.scores['bar']['trip'] = 2;
+                this.scores['ber']['trip'] = 3;
+                this.scores['cop']['trip'] = 2;
             } else if (this.trip == 'relax') {
-                this.scores['cape']['trip'] = 3;
-                this.scores['col']['trip'] = 2;
+                this.scores['nice']['trip'] = 3;
+                this.scores['bar']['trip'] = 2;
+                this.scores['ber']['trip'] = 1;
                 this.scores['cop']['trip'] = 1;
-                this.scores['val']['trip'] = 0;
             }
         },
 
@@ -1082,25 +1080,25 @@ var app = new Vue({
             this.accomodation = event.currentTarget.id;
 
             if (this.accomodation == 'alpine') {
-                this.scores['cape']['accomodation'] = 0;
-                this.scores['col']['accomodation'] = 0;
-                this.scores['cop']['accomodation'] = 0;
-                this.scores['val']['accomodation'] = 3;
+                this.scores['nice']['accomodation'] = 0;
+                this.scores['bar']['accomodation'] = 0;
+                this.scores['ber']['accomodation'] = 0;
+                this.scores['cop']['accomodation'] = 1;
             } else if (this.accomodation == 'local') {
-                this.scores['cape']['accomodation'] = 1;
-                this.scores['col']['accomodation'] = 1;
+                this.scores['nice']['accomodation'] = 1;
+                this.scores['bar']['accomodation'] = 1;
+                this.scores['ber']['accomodation'] = 2;
                 this.scores['cop']['accomodation'] = 2;
-                this.scores['val']['accomodation'] = 1;
             } else if (this.accomodation == 'beach') {
-                this.scores['cape']['accomodation'] = 3;
-                this.scores['col']['accomodation'] = 2;
+                this.scores['nice']['accomodation'] = 3;
+                this.scores['bar']['accomodation'] = 2;
+                this.scores['ber']['accomodation'] = 0;
                 this.scores['cop']['accomodation'] = 0;
-                this.scores['val']['accomodation'] = 0;
             } else if (this.accomodation == 'city') {
-                this.scores['cape']['accomodation'] = 0;
-                this.scores['col']['accomodation'] = 2;
-                this.scores['cop']['accomodation'] = 3;
-                this.scores['val']['accomodation'] = 0;
+                this.scores['nice']['accomodation'] = 0;
+                this.scores['bar']['accomodation'] = 2;
+                this.scores['ber']['accomodation'] = 3;
+                this.scores['cop']['accomodation'] = 1;
             }
         },
 
@@ -1108,25 +1106,25 @@ var app = new Vue({
             this.cuisine = event.currentTarget.id;
 
             if (this.cuisine == 'seafood') {
-                this.scores['cape']['cuisine'] = 3;
-                this.scores['col']['cuisine'] = 2;
-                this.scores['cop']['cuisine'] = 0;
-                this.scores['val']['cuisine'] = 0;
+                this.scores['nice']['cuisine'] = 3;
+                this.scores['bar']['cuisine'] = 2;
+                this.scores['ber']['cuisine'] = 0;
+                this.scores['cop']['cuisine'] = 1;
             } else if (this.cuisine == 'fondu') {
-                this.scores['cape']['cuisine'] = 0;
-                this.scores['col']['cuisine'] = 0;
-                this.scores['cop']['cuisine'] = 0;
-                this.scores['val']['cuisine'] = 3;
+                this.scores['nice']['cuisine'] = 0;
+                this.scores['bar']['cuisine'] = 0;
+                this.scores['ber']['cuisine'] = 0;
+                this.scores['cop']['cuisine'] = 3;
             } else if (this.cuisine == 'course') {
-                this.scores['cape']['cuisine'] = 3;
-                this.scores['col']['cuisine'] = 0;
-                this.scores['cop']['cuisine'] = 1;
-                this.scores['val']['cuisine'] = 2;
+                this.scores['nice']['cuisine'] = 3;
+                this.scores['bar']['cuisine'] = 2;
+                this.scores['ber']['cuisine'] = 1;
+                this.scores['cop']['cuisine'] = 2;
             } else if (this.cuisine == 'dish') {
-                this.scores['cape']['cuisine'] = 0;
-                this.scores['col']['cuisine'] = 3;
-                this.scores['cop']['cuisine'] = 1;
-                this.scores['val']['cuisine'] = 1;
+                this.scores['nice']['cuisine'] = 0;
+                this.scores['bar']['cuisine'] = 3;
+                this.scores['ber']['cuisine'] = 1;
+                this.scores['cop']['cuisine'] = 2;
             }
         },
 
@@ -1134,25 +1132,25 @@ var app = new Vue({
             this.itinerary = event.currentTarget.id;
 
             if (this.itinerary == 'streets') {
-                this.scores['cape']['itinerary'] = 2;
-                this.scores['col']['itinerary'] = 1;
-                this.scores['cop']['itinerary'] = 0;
-                this.scores['val']['itinerary'] = 0;
+                this.scores['nice']['itinerary'] = 0;
+                this.scores['bar']['itinerary'] = 1;
+                this.scores['ber']['itinerary'] = 3;
+                this.scores['cop']['itinerary'] = 1;
             } else if (this.itinerary == 'thrills') {
-                this.scores['cape']['itinerary'] = 0;
-                this.scores['col']['itinerary'] = 0;
+                this.scores['nice']['itinerary'] = 0;
+                this.scores['bar']['itinerary'] = 0;
+                this.scores['ber']['itinerary'] = 1;
                 this.scores['cop']['itinerary'] = 0;
-                this.scores['val']['itinerary'] = 2;
             } else if (this.itinerary == 'culture') {
-                this.scores['cape']['itinerary'] = 2;
-                this.scores['col']['itinerary'] = 0;
+                this.scores['nice']['itinerary'] = 0;
+                this.scores['bar']['itinerary'] = 3;
+                this.scores['ber']['itinerary'] = 2;
                 this.scores['cop']['itinerary'] = 1;
-                this.scores['val']['itinerary'] = 1;
             } else if (this.itinerary == 'cocktail') {
-                this.scores['cape']['itinerary'] = 0;
-                this.scores['col']['itinerary'] = 2;
+                this.scores['nice']['itinerary'] = 2;
+                this.scores['bar']['itinerary'] = 1;
+                this.scores['ber']['itinerary'] = 1;
                 this.scores['cop']['itinerary'] = 1;
-                this.scores['val']['itinerary'] = 1;
             }
         },
 

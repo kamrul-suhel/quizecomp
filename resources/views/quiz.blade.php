@@ -168,36 +168,36 @@
     </div>
 
     <div class="section" id="section6">
-        <div class="slide fp-slide" id="slide1" v-bind:class="{ active : winner == 'cape' }">
+        <div class="slide fp-slide" id="slide1" v-bind:class="{ active : winner == 'nice' }">
             <span id="square1" class="square"></span>
             <span id="square2" class="square"></span>
             <span id="square3" class="square"></span>
             <h3>Your perfect destination is</h3>
-            <h1>Cape Verde</h1>
+            <h1>Nice</h1>
             <a href="#enter" class="btn">Win a free holiday</a>
         </div>
-        <div class="slide fp-slide" id="slide2" v-bind:class="{ active : winner == 'col' }">
+        <div class="slide fp-slide" id="slide2" v-bind:class="{ active : winner == 'bar' }">
             <span id="square1" class="square"></span>
             <span id="square2" class="square"></span>
             <span id="square3" class="square"></span>
             <h3>Your perfect destination is</h3>
-            <h1>Columbia</h1>
+            <h1>Barcelona</h1>
             <a href="#enter" class="btn">Win a free holiday</a>
         </div>
-        <div class="slide fp-slide" id="slide3" v-bind:class="{ active : winner == 'cop' }">
+        <div class="slide fp-slide" id="slide3" v-bind:class="{ active : winner == 'ber' }">
              <span id="square1" class="square"></span>
             <span id="square2" class="square"></span>
             <span id="square3" class="square"></span>
             <h3>Your perfect destination is</h3>
-            <h1>Copenhagen</h1>
+            <h1>Berlin</h1>
             <a href="#enter" class="btn">Win a free holiday</a>
         </div>
-        <div class="slide fp-slide" id="slide4" v-bind:class="{ active : winner == 'val' }">
+        <div class="slide fp-slide" id="slide4" v-bind:class="{ active : winner == 'cop' }">
             <span id="square1" class="square"></span>
             <span id="square2" class="square"></span>
             <span id="square3" class="square"></span>
             <h3>Your perfect destination is</h3>
-            <h1>Val d'isere</h1>
+            <h1>Copenhagen</h1>
             <a href="#enter" class="btn">Win a free holiday</a>
         </div>
     </div>
@@ -232,12 +232,13 @@
         <div class="wrap">
             <h2>Terms and Conditions</h2>
             <div class="terms-box">
-                <p>UK residents of 18+ years only may participate in the Adventure ‘Win a holiday quiz’ competition (“the Promotion”). The promotion will run on 9th January 2018 between 12.00 and 15.30 (“the Promotion Period”). No purchase necessary for entry.</p>
+                <p>UK residents of 18+ years only may participate in the Adventure ‘Win a holiday quiz’ competition (“the Promotion”). The promotion will run on 4th April 2018 between 10.00 and 14.00 (“the Promotion Period”). No purchase necessary for entry.</p>
                 <p>To Participate: Complete the Adventure quiz on the iPad provided and complete by entering your name and email address. The participants are allowed 1 turn per individual. </p>
                 <p>Full Terms &amp; prize details can be found below.</p>
-                <p>Full Terms and Conditions</p>
+                <br>
+                <h3>Full Terms and Conditions</h3>
                 <p>This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.</p>
-                <p>Promotion Period: 12.00 GMT to 15.30 GMT on 9th January 2018.</p>
+                <p>Promotion Period: 10.00 GMT to 14.00 GMT on 4th April 2018.</p>
                 <p>To Enter:</p>
                 <p>Complete the travel quiz.</p>
                 <p>Enter your full name and email address once completed.</p>
@@ -245,7 +246,7 @@
                 <p>The prizes:</p>
                 <p>There will be 1 prize</p>
                 <p>Flights and accommodation to prize draw destination</p>
-                <p>The winner of the Prize will be notified via the email address provided by midday Monday 15th January and will need to response to the email sent by midday Monday 22nd January. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and pick another winner.</p>
+                <p>The winner of the Prize will be notified via the email address provided by midday Friday 13th April and will need to response to the email sent by midday Friday 30th April. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and pick another winner.</p>
                 <p>The prize will be distributed within 28 days of the winner accepting the prize. </p>
                 <p>Prizes are non-transferable and no cash or other alternative to the prizes are available in whole or in part. In the event of unforeseen circumstances, the Promoter reserves the right to substitute an alternative reward of equal or greater value.</p>
                 <p>By entering, winners agree to participate in any publicity arranged by the Promoter or by its agencies.</p>
@@ -261,8 +262,8 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/app.js?ver=1.2"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/app.js?ver=1.3"></script>
+<!--script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script-->
 
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
 
