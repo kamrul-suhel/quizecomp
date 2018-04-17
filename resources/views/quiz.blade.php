@@ -232,29 +232,49 @@
         <div class="wrap">
             <h2>Terms and Conditions</h2>
             <div class="terms-box">
-                <p>UK residents of 18+ years only may participate in the Adventure ‘Win a holiday quiz’ competition (“the Promotion”). The promotion will run on 4th April 2018 between 10.00 and 14.00 (“the Promotion Period”). No purchase necessary for entry.</p>
-                <p>To Participate: Complete the Adventure quiz on the iPad provided and complete by entering your name and email address. The participants are allowed 1 turn per individual. </p>
-                <p>Full Terms &amp; prize details can be found below.</p>
+                <p>UK residents of 18+ years only may participate in the Adventure ‘Win a holiday quiz’ competition (“the Promotion”). The promotion will run on 19th April 2018 between 11.30 and 14:30 (“the Promotion Period”). No purchase necessary for entry.</p>
+                <p>To Participate: Complete the Adventure quiz on the iPad provided and complete by entering your name and email address. The participants are allowed 1 turn per individual. Full Terms & prize details can be found below.</p>
+
                 <br>
                 <h3>Full Terms and Conditions</h3>
-                <p>This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.</p>
-                <p>Promotion Period: 10.00 GMT to 14.00 GMT on 4th April 2018.</p>
-                <p>To Enter:</p>
-                <p>Complete the travel quiz.</p>
-                <p>Enter your full name and email address once completed.</p>
-                <p>One entry per person.</p>
-                <p>The prizes:</p>
-                <p>There will be 1 prize</p>
-                <p>Flights and accommodation to prize draw destination</p>
-                <p>The winner of the Prize will be notified via the email address provided by midday Friday 13th April and will need to response to the email sent by midday Friday 30th April. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and pick another winner.</p>
-                <p>The prize will be distributed within 28 days of the winner accepting the prize. </p>
-                <p>Prizes are non-transferable and no cash or other alternative to the prizes are available in whole or in part. In the event of unforeseen circumstances, the Promoter reserves the right to substitute an alternative reward of equal or greater value.</p>
-                <p>By entering, winners agree to participate in any publicity arranged by the Promoter or by its agencies.</p>
-                <p>By entering this Promotion, all participants will be deemed to have accepted these terms and conditions.</p>
-                <p>The Promoter will exercise its best endeavours to ensure that the Promotion runs as envisaged in a fair and proper manner and that prizes are duly received by the respective Winners. However, the Promoter does not assume any responsibility should for any circumstance this is not duly achieved. The Promoter reserves the right to cancel or change the Promotion should any exceptional or unforeseen circumstances arise.</p>
-                <p>The Promoter also has the right to disqualify any participant who the Promoter suspects and/or confirms that s/he tampered or abused the entry process or the Promotion itself. Participants who are suspected or are found to have acted fraudulently and/or dishonestly will not be entitled to the prize.</p>
-                <p>All entries must be made directly by the person entering the promotion.</p>
-                <p>These terms and conditions are governed by English Law and shall be subject to the exclusive jurisdiction of the courts or England and Wales.</p>
+                <ul>
+                    <li>This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.</li>
+
+                    <li>Promotion Period: 11.30 GMT to 14.30 GMT on 19th April 2018.</li>
+
+                    <li>To Enter:
+                        <ul>
+                            <li>Complete the travel quiz.</li>
+                            <li>Enter your full name and email address once completed.</li>
+                            <li>One entry per person.</li>
+                        </ul>
+                    </li>
+
+                    <li>The prizes:
+                        <ul>
+                            <li>There will be 1 prize</li>
+                            <li>Flights and accommodation to prize draw destination</li>
+                        </ul>
+                    </li>
+
+                    <li>The winner of the Prize will be notified via the email address provided by midday Friday 27th April and will need to response to the email sent by midday Friday 11th May. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and pick another winner.</li>
+
+                    <li>The prize will be distributed within 28 days of the winner accepting the prize. </li>
+
+                    <li>Prizes are non-transferable and no cash or other alternative to the prizes are available in whole or in part. In the event of unforeseen circumstances, the Promoter reserves the right to substitute an alternative reward of equal or greater value.</li>
+
+                    <li>By entering, winners agree to participate in any publicity arranged by the Promoter or by its agencies.</li>
+
+                    <li>By entering this Promotion, all participants will be deemed to have accepted these terms and conditions.</li>
+
+                    <li>The Promoter will exercise its best endeavours to ensure that the Promotion runs as envisaged in a fair and proper manner and that prizes are duly received by the respective Winners. However, the Promoter does not assume any responsibility should for any circumstance this is not duly achieved. The Promoter reserves the right to cancel or change the Promotion should any exceptional or unforeseen circumstances arise.</li>
+
+                    <li>The Promoter also has the right to disqualify any participant who the Promoter suspects and/or confirms that s/he tampered or abused the entry process or the Promotion itself. Participants who are suspected or are found to have acted fraudulently and/or dishonestly will not be entitled to the prize.</li>
+
+                    <li>All entries must be made directly by the person entering the promotion.</li>
+
+                    <li>These terms and conditions are governed by English Law and shall be subject to the exclusive jurisdiction of the courts or England and Wales.</li>
+                </ul>
             </div>
 
             <a href="#enter" class="btn">Back</a>
