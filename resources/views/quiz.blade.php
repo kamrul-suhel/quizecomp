@@ -287,6 +287,10 @@
 
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
 <style>
+    .terms-box ol li{
+        color:#fff;
+    }
+
     .terms-box ul li {
         color:#fff;
         line-height:1.5rem;
