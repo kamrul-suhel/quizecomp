@@ -237,7 +237,7 @@
 
                 <br>
                 <h3>Full Terms and Conditions</h3>
-                <ul>
+                <ol>
                     <li>This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.</li>
 
                     <li>Promotion Period: 11.30 GMT to 14.30 GMT on 19th April 2018.</li>
@@ -274,7 +274,7 @@
                     <li>All entries must be made directly by the person entering the promotion.</li>
 
                     <li>These terms and conditions are governed by English Law and shall be subject to the exclusive jurisdiction of the courts or England and Wales.</li>
-                </ul>
+                </ol>
             </div>
 
             <a href="#enter" class="btn">Back</a>
