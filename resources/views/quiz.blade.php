@@ -289,6 +289,7 @@
 <style>
     .terms-box ol li{
         color:#fff;
+        line-height:1.5rem;
     }
 
     .terms-box ul li {
