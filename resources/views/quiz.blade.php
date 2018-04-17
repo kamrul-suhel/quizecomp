@@ -286,6 +286,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+<style>
+    .terms-box ul li {
+        color:#fff;
+        line-height:1.5rem;
+    }
+</style>
 
 <script type="text/javascript">
     $(document).ready(function() {
